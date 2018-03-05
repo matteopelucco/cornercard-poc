@@ -30,7 +30,7 @@ ion-title {
         height: 44px;
         background-color: white;
         
-        transform: rotate(7deg);
+        transform: rotate( -7deg);
         position: absolute;
         top: -20px;
 
@@ -62,4 +62,18 @@ ion-tabs.tabs-md {
         }
 
     }
+}
+
+.button-md {
+    background-color: #035aa7;
+    ion-icon {
+        color: #FFF;
+    }
+    span {
+        color: #FFF;
+    }
+}
+
+.item-md .text-md-primary {
+    color:  #035aa7;
 }

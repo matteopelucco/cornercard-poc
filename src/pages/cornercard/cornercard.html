@@ -2,7 +2,7 @@
   <ion-navbar>
     <ion-title>
       <div class="logo"></div>
-      Cornèrcard
+      Carte
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -13,19 +13,50 @@
     <ion-slides loop="true" style="background-color: transparent;" effect="coverflow" slidesPerView="2" centeredSlides="true"
       parallax="false">
       <ion-slide *ngFor="let image of [1,2,3,4,5]">
-        <img data-src="../assets/img/slide{{image}}.jpeg">
+        <img data-src="../assets/img/cards/card{{image}}.png">
       </ion-slide>
     </ion-slides>
 
     <div class="arrow_box" style="margin-top: 40px">
 
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, erat in consectetur elementum, velit arcu pellentesque
-      ligula, vel hendrerit ex augue a ligula. Phasellus nulla lorem, laoreet in justo non, suscipit cursus tellus. Vivamus
-      rutrum sapien cursus, vestibulum arcu dapibus, fringilla urna. Nulla porta eu purus eget imperdiet. Etiam rhoncus dolor
-      eget dictum euismod. Cras ut orci a risus efficitur rutrum. Aliquam nec mollis sem, sit amet dapibus sapien. Etiam
-      diam sapien, lobortis sit amet tempor vel, molestie a leo. Vestibulum ornare blandit tortor ac tristique. Suspendisse
-      condimentum feugiat metus in efficitur. Integer nunc risus, elementum eu molestie in, ultrices nec est.
+      <ion-grid>
+        <ion-row>
+          <ion-col col-6>Unità di fatturazione:</ion-col>
+          <ion-col col-6>58968547.102</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-6>Saldo attuale:</ion-col>
+          <ion-col col-6>CHF 1'650.05</ion-col>
+        </ion-row>
+      </ion-grid>
 
+      <ion-grid>
+        <ion-row>
+          <ion-col col-12>Ultime 3 transazioni:</ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-6>10/02/2018 10.31</ion-col>
+          <ion-col col-5>CHF 126.98</ion-col>
+          <ion-col col-1>
+            <ion-icon name="arrow-dropdown" color="primary"></ion-icon>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-6>09/02/2018 14.15</ion-col>
+          <ion-col col-5>CHF 99.10</ion-col>
+          <ion-col col-1>
+            <ion-icon name="arrow-dropdown" color="primary"></ion-icon>
+          </ion-col>
+        </ion-row>
+        <ion-row>
+          <ion-col col-6>07/02/2018 09.11</ion-col>
+          <ion-col col-5>CHF 3.00</ion-col>
+          <ion-col col-1>
+            <ion-icon name="arrow-dropdown" color="primary"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+      <button ion-button block>Vai al dettaglio</button>
     </div>
 
   </ion-card>
