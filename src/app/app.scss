@@ -18,7 +18,7 @@
 ion-title {
    
     text-align: center;
-    .toolbar-title-md {
+    .toolbar-title {
         color: #FFF;
     }
     .logo {
@@ -37,12 +37,12 @@ ion-title {
     }
 }
 
-ion-navbar .toolbar-background-md {
+ion-navbar .toolbar-background {
     background-color: #035aa7;
     border-color: #0d0079;
 }
 
-ion-tabs.tabs-md {
+ion-tabs.tabs {
     .tabbar {
         background-color: #035aa7;
         border-color: #0d0079;
@@ -64,7 +64,7 @@ ion-tabs.tabs-md {
     }
 }
 
-.button-md {
+.button {
     background-color: #035aa7;
     ion-icon {
         color: #FFF;
@@ -74,6 +74,6 @@ ion-tabs.tabs-md {
     }
 }
 
-.item-md .text-md-primary {
+.item .text-md-primary {
     color:  #035aa7;
 }
