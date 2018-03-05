@@ -1,6 +1,7 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
+      <div class="logo"></div>
       Cornèrcard
     </ion-title>
   </ion-navbar>
@@ -9,7 +10,8 @@
 <ion-content padding>
   <ion-card padding>
 
-    <ion-slides loop="true" style="background-color: transparent;" effect="coverflow" slidesPerView="2" centeredSlides="true" parallax="false">
+    <ion-slides loop="true" style="background-color: transparent;" effect="coverflow" slidesPerView="2" centeredSlides="true"
+      parallax="false">
       <ion-slide *ngFor="let image of [1,2,3,4,5]">
         <img data-src="../assets/img/slide{{image}}.jpeg">
       </ion-slide>
@@ -17,7 +19,12 @@
 
     <div class="arrow_box" style="margin-top: 40px">
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, erat in consectetur elementum, velit arcu pellentesque ligula, vel hendrerit ex augue a ligula. Phasellus nulla lorem, laoreet in justo non, suscipit cursus tellus. Vivamus rutrum sapien cursus, vestibulum arcu dapibus, fringilla urna. Nulla porta eu purus eget imperdiet. Etiam rhoncus dolor eget dictum euismod. Cras ut orci a risus efficitur rutrum. Aliquam nec mollis sem, sit amet dapibus sapien. Etiam diam sapien, lobortis sit amet tempor vel, molestie a leo. Vestibulum ornare blandit tortor ac tristique. Suspendisse condimentum feugiat metus in efficitur. Integer nunc risus, elementum eu molestie in, ultrices nec est.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla, erat in consectetur elementum, velit arcu pellentesque
+      ligula, vel hendrerit ex augue a ligula. Phasellus nulla lorem, laoreet in justo non, suscipit cursus tellus. Vivamus
+      rutrum sapien cursus, vestibulum arcu dapibus, fringilla urna. Nulla porta eu purus eget imperdiet. Etiam rhoncus dolor
+      eget dictum euismod. Cras ut orci a risus efficitur rutrum. Aliquam nec mollis sem, sit amet dapibus sapien. Etiam
+      diam sapien, lobortis sit amet tempor vel, molestie a leo. Vestibulum ornare blandit tortor ac tristique. Suspendisse
+      condimentum feugiat metus in efficitur. Integer nunc risus, elementum eu molestie in, ultrices nec est.
 
     </div>
 

@@ -16,16 +16,50 @@
 // automatically applied to the <body> element in the app.
 
 ion-title {
-    background-image: url("/assets/img/cornercard-logo.png");
-    background-size: contain;
-    background-repeat: no-repeat;
+   
     text-align: center;
     .toolbar-title-md {
         color: #FFF;
+    }
+    .logo {
+        background-image: url("/assets/img/cornercard-logo.png");
+        background-size: 30px 30px;
+        background-repeat: no-repeat;
+        background-position: center 10px;
+        width: 44px;
+        height: 44px;
+        background-color: white;
+        
+        transform: rotate(7deg);
+        position: absolute;
+        top: -20px;
+
     }
 }
 
 ion-navbar .toolbar-background-md {
     background-color: #035aa7;
     border-color: #0d0079;
+}
+
+ion-tabs.tabs-md {
+    .tabbar {
+        background-color: #035aa7;
+        border-color: #0d0079;
+        .tab-button .tab-button-icon {
+            // color: rgba(231, 1, 24, 0.7);
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .tab-button {
+            color: rgba(255, 255, 255, 0.7);
+        }
+        .tab-button[aria-selected=true] {
+            color: rgba(255, 255, 255, 1);
+        }
+        .tab-button[aria-selected=true] .tab-button-icon {
+            // color: rgba(231, 1, 24, 1);
+            color: rgba(255, 255, 255, 1);
+        }
+
+    }
 }
