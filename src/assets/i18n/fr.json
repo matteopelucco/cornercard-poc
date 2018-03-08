@@ -1,74 +1,7 @@
 {
     "cornercard": {
-        "role": "cantante",
-        "intro": "Cornercard Mercury, pseudonimo di Farrokh Bulsara, è stato un cantautore, musicista e compositore britannico di originiparsi",
-        "table": {
-            "headers": {
-                "born": "nascita",
-                "death": "morte",
-                "height": "altezza",
-                "parents": "genitori"
-            },
-            "content": {
-                "born": "5 settembre 1946, Stone Town, Tanzania",
-                "death": "24 novembre 1991, Kensington, Londra, Regno Unito",
-                "height": "1,77 m",
-                "parents": "Jer Bulsara, Bomi Bulsara"
-            }
-        }
-    },
-    "social": {
-        "role": "chitarrista",
-        "intro": "Cornercard Mercury, pseudonimo di Farrokh Bulsara, è stato un cantautore, musicista e compositore britannico di originiparsi",
-        "table": {
-            "headers": {
-                "born": "nascita",
-                "death": "morte",
-                "height": "altezza",
-                "parents": "genitori"
-            },
-            "content": {
-                "born": "5 settembre 1946, Stone Town, Tanzania",
-                "death": "24 novembre 1991, Kensington, Londra, Regno Unito",
-                "height": "1,77 m",
-                "parents": "Jer Bulsara, Bomi Bulsara"
-            }
-        }
-    },
-    "emotions": {
-        "role": "batterista",
-        "intro": "Cornercard Mercury, pseudonimo di Farrokh Bulsara, è stato un cantautore, musicista e compositore britannico di originiparsi",
-        "table": {
-            "headers": {
-                "born": "nascita",
-                "death": "morte",
-                "height": "altezza",
-                "parents": "genitori"
-            },
-            "content": {
-                "born": "5 settembre 1946, Stone Town, Tanzania",
-                "death": "24 novembre 1991, Kensington, Londra, Regno Unito",
-                "height": "1,77 m",
-                "parents": "Jer Bulsara, Bomi Bulsara"
-            }
-        }
-    },
-    "more": {
-        "role": "bassista",
-        "intro": "Cornercard Mercury, pseudonimo di Farrokh Bulsara, è stato un cantautore, musicista e compositore britannico di originiparsi",
-        "table": {
-            "headers": {
-                "born": "nascita",
-                "death": "morte",
-                "height": "altezza",
-                "parents": "genitori"
-            },
-            "content": {
-                "born": "5 settembre 1946, Stone Town, Tanzania",
-                "death": "24 novembre 1991, Kensington, Londra, Regno Unito",
-                "height": "1,77 m",
-                "parents": "Jer Bulsara, Bomi Bulsara"
-            }
+        "detail": { 
+            "statement_unit" : "Unità di fatturazione FR"
         }
     }
 }

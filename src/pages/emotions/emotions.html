@@ -2,40 +2,18 @@
   <ion-navbar>
     <ion-title>
       <div class="logo"></div>
-      Emotions
+      {{ 'emotions.title' | translate}}
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-
 <ion-content class="card-background-page">
 
-  <ion-card>
-    <img src="assets/img/emotions/emotion1.jpg" />
-    <div class="card-title">Rocky Horror Show</div>
-    <div class="card-subtitle">2 × 2 biglietti in palio</div>
-    <div class="emotion-badge">Win</div>
+  <ion-card *ngFor="let item of emotionItems">
+    <img [src]="item.img" />
+    <div class="card-title">{{item.title}}</div>
+    <div class="card-subtitle">{{item.subtitle}}</div>
+    <div class="emotion-badge">{{item.badge}}</div>
   </ion-card>
-
-  <ion-card>
-      <img src="assets/img/emotions/emotion2.jpg" />
-      <div class="card-title">Divertimento sulla neve allo stato puro</div>
-      <div class="card-subtitle">41 rimasti</div>
-      <div class="emotion-badge">2x</div>
-    </ion-card>
-
-    <ion-card>
-        <img src="assets/img/emotions/emotion3.jpg" />
-        <div class="card-title">«Mozart-Gala» mit Regula Mühlemann</div>
-        <div class="card-subtitle">Nuovi posti disponibili</div>
-        <div class="emotion-badge">NEW</div>
-      </ion-card>
-
-      <ion-card>
-          <img src="assets/img/emotions/emotion4.jpg" />
-          <div class="card-title">Platzkonzert</div>
-          <div class="card-subtitle">Ultimo giorno!</div>
-          <div class="emotion-badge">2x2</div>
-        </ion-card>
 
 </ion-content>

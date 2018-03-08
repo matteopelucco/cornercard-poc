@@ -2,49 +2,48 @@
   <ion-navbar>
     <ion-title>
       <div class="logo"></div>
-      More
+      {{ 'more.title' | translate}}
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content class=" cards-bg">
 
-  <h2 padding ion-text>Impostazioni avanzate</h2>
+  <h2 padding ion-text>{{ 'more.settings.title' | translate}}</h2>
 
-    <ion-list>
-
-
-      <button ion-item>
-        <ion-icon name='calculator' item-start color="primary"></ion-icon>
-        Richiedi un PIN
-        <ion-icon name='arrow-forward' item-end color="primary"></ion-icon>
-      </button>
-
-      <button ion-item>
-          <ion-icon name='card' item-start color="primary"></ion-icon>
-          Apple Pay
-          <ion-icon name='arrow-forward' item-end color="primary"></ion-icon>
-        </button>
-
-      <button ion-item>
-        <ion-icon name='person' item-start color="primary"></ion-icon>
-        Contatta un consulente
-        <ion-icon name='arrow-forward' item-end color="primary"></ion-icon>
-      </button>
-
-      <button ion-item>
-        <ion-icon name='quote' item-start color="primary"></ion-icon>
-        Domande e risposte
-        <ion-icon name='arrow-forward' item-end color="primary"></ion-icon>
-      </button>
-
-      <button ion-item>
-          <ion-icon name='help-circle' item-start color="primary"></ion-icon>
-          Info
-          <ion-icon name='arrow-forward' item-end color="primary"></ion-icon>
-        </button>
+  <ion-list>
 
 
-    </ion-list>
+    <button ion-item>
+      <ion-icon name='calculator' item-start color="primary"></ion-icon>
+      {{ 'more.settings.ask_for_a_pin' | translate}}
+      <ion-icon name='arrow-forward' item-end color="primary" showWhen="android"></ion-icon>
+    </button>
+
+    <button ion-item>
+      <ion-icon name='card' item-start color="primary"></ion-icon>
+      {{ 'more.settings.apple_pay' | translate}}
+      <ion-icon name='arrow-forward' item-end color="primary" showWhen="android"></ion-icon>
+    </button>
+
+    <button ion-item>
+      <ion-icon name='person' item-start color="primary"></ion-icon>
+      {{ 'more.settings.ask_to_a_consultant' | translate}}
+      <ion-icon name='arrow-forward' item-end color="primary" showWhen="android"></ion-icon>
+    </button>
+
+    <button ion-item>
+      <ion-icon name='quote' item-start color="primary"></ion-icon>
+      {{ 'more.settings.questions_and_answers' | translate}}
+      <ion-icon name='arrow-forward' item-end color="primary" showWhen="android"></ion-icon>
+    </button>
+
+    <button ion-item>
+      <ion-icon name='help-circle' item-start color="primary"></ion-icon>
+      {{ 'more.settings.info' | translate}}
+      <ion-icon name='arrow-forward' item-end color="primary"></ion-icon>
+    </button>
+
+  </ion-list>
 
 </ion-content>

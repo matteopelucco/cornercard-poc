@@ -2,7 +2,7 @@
   <ion-navbar>
     <ion-title>
       <div class="logo"></div>
-      Carte
+      {{ 'cornercard.title' | translate}}
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -21,18 +21,18 @@
 
       <ion-grid>
         <ion-row>
-          <ion-col col-6>Unità di fatturazione:</ion-col>
+          <ion-col col-6>{{ 'cornercard.detail.statement_unit' | translate}}:</ion-col>
           <ion-col col-6>58968547.102</ion-col>
         </ion-row>
         <ion-row>
-          <ion-col col-6>Saldo attuale:</ion-col>
+          <ion-col col-6>{{ 'cornercard.detail.effective_balance' | translate}}:</ion-col>
           <ion-col col-6>CHF 1'650.05</ion-col>
         </ion-row>
       </ion-grid>
 
       <ion-grid>
         <ion-row>
-          <ion-col col-12>Ultime 3 transazioni:</ion-col>
+          <ion-col col-12>{{ 'cornercard.detail.latest_x_transactions' | translate:{'x':'3'} }}:</ion-col>
         </ion-row>
         <ion-row>
           <ion-col col-6>10/02/2018 10.31</ion-col>
@@ -56,7 +56,7 @@
           </ion-col>
         </ion-row>
       </ion-grid>
-      <button ion-button block>Maggiori dettagli</button>
+      <button ion-button block>{{ 'cornercard.detail.more_details' | translate}}</button>
     </div>
 
   </ion-card>
