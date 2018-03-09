@@ -45,5 +45,35 @@
   <!-- The main bundle js is generated during the build process -->
   <script src="build/main.js"></script>
 
+  <!--
+  <script>
+      window.LOKALISE_CONFIG = {
+        projectId: "318564515a981a76c340e1.65088993",
+        locale: "it", 
+        onSave: function (updatedTranslations, skippedTranslations, dismissedTranslations, errorMessage) {
+        for (var i = 0; i < updatedTranslations.length; i++) {
+            $.ajax({
+                type: 'POST',
+                url: '/ajax/translations/update',
+                data: {
+                    'key': updatedTranslations[i].key,
+                    'translation': updatedTranslations[i].translation,
+                    'locale': updatedTranslations[i].locale
+                },
+                success: function (response) {
+                    console.info('Translation updated', response);
+                }
+            });
+        }
+    }
+      };
+      (function () {
+        var a = document.createElement("script");a.type = "text/javascript";a.async = !0;
+        a.src = ["https://lokalise.co/live-js/script.min.js?", (new Date).getTime()].join("");
+        document.body.appendChild(a)
+      })();
+  </script>
+  -->
+
 </body>
 </html>
