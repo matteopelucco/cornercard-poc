@@ -1,7 +1,59 @@
 {
+    "tabs": {
+        "tab1.title": "cartes",
+        "tab2.title": "social",
+        "tab3.title": "passions",
+        "tab4.title": "plus"
+    },
     "cornercard": {
-        "detail": { 
-            "statement_unit" : "Unità di fatturazione FR"
+        "title": "cartes",
+        "detail": {
+            "statement_unit": "unité de facturation",
+            "effective_balance": "équilibre actuel",
+            "latest_x_transactions": "rupture {{x}} transactions",
+            "more_details": "plus de détails"
+        }
+    },
+    "social": {
+        "title": "CORNAR sociale",
+        "post": {
+            "likes": "goûts",
+            "comments": "commentaires",
+            "has_shared_post_of": "il a partagé le poste de"
+        }
+    },
+    "emotions": {
+        "title": "passions",
+        "post.1": {
+            "title": "Afficher Rocky Horror",
+            "subtitle": "2 × 2 places à gagner",
+            "badge": "victoire"
+        },
+        "post.2": {
+            "title": "Fun sur neige pure",
+            "subtitle": "41 billets disponibles",
+            "badge": "x2"
+        },
+        "post.3": {
+            "title": "\"Mozart Gala\" avec Regula Mühlemann",
+            "subtitle": "De nouvelles places disponibles",
+            "badge": "NOUVEAU"
+        },
+        "post.4": {
+            "title": "Concert sur la place",
+            "subtitle": "Dernier jour!",
+            "badge": "2x2"
+        }
+    },
+    "more": {
+        "title": "Plus",
+        "settings": {
+            "title": "Paramètres avancés",
+            "ask_for_a_pin": "Demander une goupille",
+            "apple_pay": "Apple Pay",
+            "ask_to_a_consultant": "Contactez un conseiller",
+            "questions_and_answers": "Questions et réponses",
+            "info": "Infos"
         }
     }
 }

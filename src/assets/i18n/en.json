@@ -1,7 +1,59 @@
 {
+    "tabs": {
+        "tab1.title": "Cards",
+        "tab2.title": "Social",
+        "tab3.title": "Emotions",
+        "tab4.title": "More"
+    },
     "cornercard": {
-        "detail": { 
-            "statement_unit" : "Unità di fatturazione"
+        "title": "Cards",
+        "detail": {
+            "statement_unit": "Billing unit",
+            "effective_balance": "Current balance",
+            "latest_x_transactions": "Breaking {{x}} transactions",
+            "more_details": "More details"
+        }
+    },
+    "social": {
+        "title": "Social Cornèr",
+        "post": {
+            "likes": "likes",
+            "comments": "Comments",
+            "has_shared_post_of": "shared the post of"
+        }
+    },
+    "emotions": {
+        "title": "Emotions",
+        "post.1": {
+            "title": "Rocky Horror Show",
+            "subtitle": "2 × 2 tickets up for grabs",
+            "badge": "Win"
+        },
+        "post.2": {
+            "title": "Pure snow fun",
+            "subtitle": "41 tickets left",
+            "badge": "x2"
+        },
+        "post.3": {
+            "title": "«Mozart Gala» with Regula Mühlemann",
+            "subtitle": "New seats available",
+            "badge": "NEW"
+        },
+        "post.4": {
+            "title": "Concert in the square",
+            "subtitle": "Last day!",
+            "badge": "2x2"
+        }
+    },
+    "more": {
+        "title": "More",
+        "settings": {
+            "title": "Advanced settings",
+            "ask_for_a_pin": "Request a pin",
+            "apple_pay": "Apple Pay",
+            "ask_to_a_consultant": "Contact a consultant",
+            "questions_and_answers": "Questions and answers",
+            "info": "Info"
         }
     }
 }

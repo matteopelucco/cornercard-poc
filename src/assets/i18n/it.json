@@ -1,59 +1,59 @@
 {
-    "tabs" : {
-        "tab1.title" : "Carte", 
-        "tab2.title" : "Social", 
-        "tab3.title" : "Emotions", 
-        "tab4.title" : "More"
-    }, 
+    "tabs": {
+        "tab1.title": "Carte",
+        "tab2.title": "Social",
+        "tab3.title": "Emotions",
+        "tab4.title": "More"
+    },
     "cornercard": {
-        "title" : "Carte", 
-        "detail": { 
-            "statement_unit" : "Unità di fatturazione", 
-            "effective_balance" : "Saldo attuale", 
-            "latest_x_transactions" : "Ultime {{x}} transazioni", 
-            "more_details" : "Maggiori dettagli"
+        "title": "Carte",
+        "detail": {
+            "statement_unit": "Unità di fatturazione",
+            "effective_balance": "Saldo attuale",
+            "latest_x_transactions": "Ultime {{x}} transazioni",
+            "more_details": "Maggiori dettagli"
         }
-    }, 
-    "social" : {
-        "title" : "Social Cornèr", 
-        "post" : {
-            "likes" : "Likes", 
-            "comments" : "Commenti", 
-            "has_shared_post_of" : "ha condiviso il post di"
+    },
+    "social": {
+        "title": "Social Cornèr",
+        "post": {
+            "likes": "Likes",
+            "comments": "Commenti",
+            "has_shared_post_of": "ha condiviso il post di"
         }
-    }, 
-    "emotions" : {
-        "title" : "Emotions", 
-        "post.1" : {
-            "title" : "Rocky Horror Show", 
-            "subtitle" : "2 × 2 biglietti in palio", 
-            "badge" : "Win"
-        }, 
-        "post.2" : {
-            "title" : "Divertimento sulla neve allo stato puro", 
-            "subtitle" : "41 biglietti rimasti", 
-            "badge" : "x2"
-        }, 
-        "post.3" : {
-            "title" : "«Galà di Mozart» con Regula Mühlemann", 
-            "subtitle" : "Nuovi posti disponibili", 
-            "badge" : "NEW"
-        }, 
-        "post.4" : {
-            "title" : "Concerto in piazza", 
-            "subtitle" : "Ultimo giorno!", 
-            "badge" : "2x2"
+    },
+    "emotions": {
+        "title": "Emotions",
+        "post.1": {
+            "title": "Rocky Horror Show",
+            "subtitle": "2 × 2 biglietti in palio",
+            "badge": "Win"
+        },
+        "post.2": {
+            "title": "Divertimento sulla neve allo stato puro",
+            "subtitle": "41 biglietti rimasti",
+            "badge": "x2"
+        },
+        "post.3": {
+            "title": "«Galà di Mozart» con Regula Mühlemann",
+            "subtitle": "Nuovi posti disponibili",
+            "badge": "NEW"
+        },
+        "post.4": {
+            "title": "Concerto in piazza",
+            "subtitle": "Ultimo giorno!",
+            "badge": "2x2"
         }
-    }, 
-    "more" : {
-        "title" : "More", 
-        "settings" : {
-            "title" : "Impostazioni avanzate", 
-            "ask_for_a_pin" : "Richiedi un pin", 
-            "apple_pay" : "Apple Pay", 
-            "ask_to_a_consultant" : "Contatta un consulente",
-            "questions_and_answers" : "Domande e risposte", 
-            "info" : "Info"
+    },
+    "more": {
+        "title": "More",
+        "settings": {
+            "title": "Impostazioni avanzate",
+            "ask_for_a_pin": "Richiedi un pin",
+            "apple_pay": "Apple Pay",
+            "ask_to_a_consultant": "Contatta un consulente",
+            "questions_and_answers": "Domande e risposte",
+            "info": "Info"
         }
     }
 }
